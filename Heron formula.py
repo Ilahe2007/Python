@@ -1,0 +1,10 @@
+import math
+a,b,c,d,f=input().split()
+a=float(a)
+b=float(b)
+c=float(c)
+d=float(d)
+f=float(f)
+S1=math.sqrt(((d+f+c)/2)*(((d+f+c)/2)-d)*(((d+f+c)/2)-c)*(((d+f+c)/2)-f))
+S2=math.sqrt(((a+b+f)/2)*(((a+b+f)/2)-a)*(((a+b+f)/2)-b)*(((a+b+f)/2)-f))
+print('{:.4f}'.format(S1+S2))
