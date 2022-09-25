@@ -1,0 +1,8 @@
+n=int(input())
+n=input().split()
+n=list(map(int,n))
+a=str(min(n))
+b=str(max(n))
+n=list(map(str,n))
+c=list({a:b,b:a}.get(c,c) for c in n)
+print(' '.join(c))
