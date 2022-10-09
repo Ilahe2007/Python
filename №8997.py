@@ -2,6 +2,7 @@ a=str(input())
 b=[]
 d=[]
 e=[]
+#How many elements are repeated in the string
 for i in a:
   if a.count(i)>=2:
     if b.count(i)==0:
